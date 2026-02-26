@@ -1,63 +1,66 @@
-# 🛡️ Dispute & Chargeback Skill for OpenClaw
+# 🛡️ Dispute & Chargeback Response Kit
 
-Handle payment disputes and chargebacks across **Stripe, PayPal, Square, Wise, and GHL Payments** — with AI-guided evidence gathering, reason code lookup, and response letter drafting.
+**Stop losing money to chargebacks.** This skill turns your AI assistant into a chargeback-fighting machine — it knows every reason code, what evidence you need, and drafts your response for you.
 
-## What's Inside
+## The Problem
 
-- **SKILL.md** — Main workflow: gather details → identify reason code → evidence checklist → draft response → submit
-- **references/reason-codes.md** — Full Visa, Mastercard & AMEX reason code tables
-- **references/evidence-guide.md** — Evidence checklists per dispute category
-- **references/platforms.md** — Platform-specific submission guides, deadlines & fees
-- **assets/response-templates/** — Ready-to-customize response letters:
-  - Fraud / Unauthorized
-  - Product Not Received
-  - Cancelled Recurring
-  - Not As Described / Defective
-  - Pinpoint Scaling master dispute template (13-page PDF + fill-in guide)
+You get a chargeback notification. You have 7-21 days to respond. Most clinic owners either:
+- Panic and accept the loss
+- Submit weak evidence and lose anyway
+- Miss the deadline entirely
+
+**Average chargeback win rate: 30%.** With the right evidence and response? **60-80%.**
+
+## What This Does
+
+Tell your AI: *"I got a $2,500 chargeback on Stripe, customer says unauthorized"*
+
+It will:
+1. **Identify the reason code** and what it actually means
+2. **Generate your evidence checklist** — exactly what screenshots, logs, and docs you need
+3. **Draft your response letter** using our proven template (same one we use internally)
+4. **Tell you where and how to submit** with platform-specific steps and deadlines
+
+## Covers
+
+| Platform | ✅ |
+|----------|---|
+| Stripe | Full guide + 2025 fee structure |
+| PayPal | Resolution Center walkthrough |
+| Square | Disputes Dashboard |
+| GHL Payments | Routes to underlying processor |
+| Wise | Support ticket process |
+
+| Card Network | ✅ |
+|--------------|---|
+| Visa | All reason codes mapped |
+| Mastercard | All reason codes mapped |
+| AMEX | All reason codes mapped |
+
+## Includes
+
+- **Pinpoint Scaling Master Dispute Template** — 13-page proven document covering contract proof, service delivery evidence, CRM screenshots, ad account proof, call recordings, and no-refund policy enforcement
+- **4 response letter templates** — Fraud, Not Received, Cancelled Subscription, Not As Described
+- **Evidence checklists** for every dispute type
+- **Platform submission guides** with exact deadlines and fees
+- **When NOT to fight** — saves you money on unwinnable disputes
 
 ## Install
 
-Copy the `dispute-chargeback` folder into your OpenClaw skills directory:
+Download this repo and drop the folder into your OpenClaw skills directory:
 
-```bash
+```
 git clone https://github.com/Ale55androC/L-Sdisputeskill.git
-cp -r L-Sdisputeskill ~/.openclaw/workspace/skills/dispute-chargeback
+cp -r L-Sdisputeskill /path/to/your/openclaw/skills/dispute-chargeback
 ```
 
-Or download the `.skill` file from [Releases](https://github.com/Ale55androC/L-Sdisputeskill/releases) and drop it in your skills folder.
-
-Verify it's installed:
-
-```bash
+Then verify:
+```
 openclaw skills list
 ```
 
-You should see `dispute-chargeback` as ✓ ready.
-
-## Usage
-
-Just tell your OpenClaw agent something like:
-
-> "I got a chargeback on Stripe for $2,500. Customer says unauthorized. Help me fight it."
-
-The skill will automatically trigger and walk you through:
-1. Identifying the reason code
-2. Generating a tailored evidence checklist
-3. Drafting a response letter
-4. Platform-specific submission instructions
-
-## Key Features
-
-- **Multi-platform** — Stripe, PayPal, Square, Wise, GHL
-- **Reason code mapping** — Visa, Mastercard, AMEX with cross-reference table
-- **Smart cost-benefit** — Tells you when it's worth fighting vs. accepting
-- **Stripe 2025 fees** — Updated for the new $15+$15 dispute fee structure
-- **Withdrawal handling** — Always submit evidence even if customer says they'll withdraw
+Should show `dispute-chargeback` as ✓ ready.
 
 ## Built by
 
-[License & Scale](https://licenseandscale.com) — Marketing agency for aesthetic & medical clinics.
-
----
-
-*Built with [OpenClaw](https://openclaw.ai)*
+[License & Scale](https://licenseandscale.com) — we've fought hundreds of chargebacks for aesthetic and medical clinics. This is exactly what we use.
