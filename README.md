@@ -4,7 +4,7 @@
 
 ## The Problem
 
-You get a chargeback notification. You have 7-21 days to respond. Most clinic owners either:
+You get a chargeback notification. You have 7-21 days to respond. Most agency owners either:
 - Panic and accept the loss
 - Submit weak evidence and lose anyway
 - Miss the deadline entirely
@@ -13,15 +13,19 @@ You get a chargeback notification. You have 7-21 days to respond. Most clinic ow
 
 ## What This Does
 
-Tell your AI: *"I got a $2,500 chargeback on Stripe, customer says unauthorized"*
+Tell your AI: *"I got a €2,500 chargeback on Stripe, client says unauthorized"*
 
 It will:
 1. **Identify the reason code** and what it actually means
 2. **Generate your evidence checklist** — exactly what screenshots, logs, and docs you need
-3. **Draft your response letter** using our proven template (same one we use internally)
+3. **Draft your response letter** using a proven template
 4. **Tell you where and how to submit** with platform-specific steps and deadlines
 
-## Covers
+## Who This Is For
+
+Lead generation agencies running Meta ads for clients — whether your clients are clinics, med spas, dental practices, real estate, or any other service business. If you're managing ad spend, CRMs, and client campaigns, and a client disputes a payment, this skill has you covered.
+
+## Platforms Covered
 
 | Platform | ✅ |
 |----------|---|
@@ -37,13 +41,24 @@ It will:
 | Mastercard | All reason codes mapped |
 | AMEX | All reason codes mapped |
 
-## Includes
+## What's Included
 
-- **Pinpoint Scaling Master Dispute Template** — 13-page proven document covering contract proof, service delivery evidence, CRM screenshots, ad account proof, call recordings, and no-refund policy enforcement
+- **Master Dispute Template** — 13-page proven document covering contract proof, service delivery evidence, CRM screenshots, ad account proof, call recordings, and no-refund policy enforcement
 - **4 response letter templates** — Fraud, Not Received, Cancelled Subscription, Not As Described
-- **Evidence checklists** for every dispute type
+- **Evidence checklists** for every dispute type — tailored for agencies (ad account screenshots, CRM lead data, campaign performance, client communication logs)
 - **Platform submission guides** with exact deadlines and fees
 - **When NOT to fight** — saves you money on unwinnable disputes
+
+## Evidence the Skill Helps You Gather
+
+For agencies specifically, the skill walks you through collecting:
+- Facebook/Meta Ads Manager screenshots (campaigns, spend, results)
+- CRM lead follow-up proof (texts, emails, calls)
+- Booked appointment records
+- Client check-in call recordings & transcripts
+- Signed contracts & no-refund policies
+- Payment authorization proof
+- Campaign naming conventions that prove professional management
 
 ## Install
 
@@ -63,4 +78,4 @@ Should show `dispute-chargeback` as ✓ ready.
 
 ## Built by
 
-[License & Scale](https://licenseandscale.com) — we've fought hundreds of chargebacks for aesthetic and medical clinics. This is exactly what we use.
+[License & Scale](https://licenseandscale.com) — built from real experience fighting chargebacks across hundreds of agency-client relationships.
